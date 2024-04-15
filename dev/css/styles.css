@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* 确保 body 和 html 元素的高度为 100% */
+}
+
+body {
+    background-image: url('../data/jpg/Star6_23_101723_DSC_6184_desktop_8765fb12d8.jpg'); /* 替换为你的背景图片路径 */
+    background-size: cover;      /* 背景图大小调整为覆盖整个元素 */
+    background-repeat: no-repeat; /* 确保背景图不重复 */
+    background-position: center center; /* 背景图居中 */
+    background-attachment: fixed; /* 背景图固定 */
+    font-family: Arial, sans-serif; /* 示例字体 */
+}
+
+
+
+.full-screen-link {
+    position: absolute; /* 使用绝对定位 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;        /* 确保这个链接在内容之上 */
+}
+
+
+
